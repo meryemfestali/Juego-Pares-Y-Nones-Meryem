@@ -1,7 +1,8 @@
 // función para pasar de pantalla 1 a pantalla 2
 function pasopant2(){
 document.getElementById('pantalla1').style.display='none';
-document.getElementById('pantalla2').style.display='inline-block';
+document.getElementById('pantalla2').style.display='inline-block'; 
+    document.getElementById('efecto').play();
 }
 // función para pasar de pantalla 2 a pantalla 4
 function pasopant4(){
